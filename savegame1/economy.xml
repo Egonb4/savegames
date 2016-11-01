@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<economy>
+    <vehicleShopSales>
+      <vehicleShopSale xmlFilename="data/vehicles/frontLoaders/stoll/stollToolSilageCutter.xml" discount="5" saleStartDay="8" saleStartHour="9" saleDuration="6" isRunning="false" />
+      <vehicleShopSale xmlFilename="data/vehicles/steerable/deutz/deutzFahr7250.xml" discount="20" saleStartDay="9" saleStartHour="14" saleDuration="48" isRunning="false" />
+      <vehicleShopSale xmlFilename="data/vehicles/trailers/ursus/ursusN270.xml" discount="5" saleStartDay="7" saleStartHour="8" saleDuration="30" isRunning="false" />
+      <vehicleShopSale xmlFilename="data/vehicles/trailers/bergmann/bergmannM1080.xml" discount="5" saleStartDay="9" saleStartHour="15" saleDuration="42" isRunning="false" />
+    </vehicleShopSales>
+
+    <brandSale xmlFilename="data/vehicles/tools/vogelNoot/vogelNootTerraDisc600.xml" discount="10" saleStartDay="9" saleStartHour="14" saleDuration="12" isRunning="false" />
+
+    <fieldOwnage>
+      <field number="1" ownedByPlayer="false" />
+      <field number="2" ownedByPlayer="false" />
+      <field number="3" ownedByPlayer="false" />
+      <field number="4" ownedByPlayer="false" />
+      <field number="5" ownedByPlayer="false" />
+      <field number="6" ownedByPlayer="false" />
+      <field number="7" ownedByPlayer="false" />
+      <field number="8" ownedByPlayer="false" />
+      <field number="9" ownedByPlayer="false" />
+      <field number="10" ownedByPlayer="false" />
+      <field number="11" ownedByPlayer="false" />
+      <field number="12" ownedByPlayer="false" />
+      <field number="13" ownedByPlayer="false" />
+      <field number="14" ownedByPlayer="false" />
+      <field number="15" ownedByPlayer="false" />
+      <field number="16" ownedByPlayer="false" />
+      <field number="17" ownedByPlayer="false" />
+      <field number="18" ownedByPlayer="false" />
+      <field number="19" ownedByPlayer="false" />
+      <field number="20" ownedByPlayer="false" />
+      <field number="21" ownedByPlayer="false" />
+      <field number="22" ownedByPlayer="false" />
+      <field number="23" ownedByPlayer="false" />
+      <field number="24" ownedByPlayer="true" />
+      <field number="25" ownedByPlayer="false" />
+      <field number="26" ownedByPlayer="false" />
+      <field number="27" ownedByPlayer="false" />
+      <field number="28" ownedByPlayer="false" />
+      <field number="29" ownedByPlayer="true" />
+      <field number="30" ownedByPlayer="true" />
+      <field number="31" ownedByPlayer="false" />
+      <field number="32" ownedByPlayer="false" />
+      <field number="33" ownedByPlayer="false" />
+      <field number="34" ownedByPlayer="false" />
+      <field number="35" ownedByPlayer="false" />
+      <field number="36" ownedByPlayer="false" />
+      <field number="37" ownedByPlayer="false" />
+      <field number="38" ownedByPlayer="true" />
+      <field number="39" ownedByPlayer="false" />
+      <field number="40" ownedByPlayer="false" />
+      <field number="41" ownedByPlayer="false" />
+    </fieldOwnage>
+
+    <greatDemands>
+      <greatDemand stationName="StationGrainElevator" fillTypeName="barley" demandMultiplier="1.6000000238419" demandStartDay="6" demandStartHour="18" demandDuration="12" isRunning="true" isValid="true" />
+      <greatDemand stationName="StationBiomassHeatingPlant" fillTypeName="woodChips" demandMultiplier="1.8" demandStartDay="8" demandStartHour="18" demandDuration="18" isRunning="false" isValid="true" />
+      <greatDemand stationName="StationFreightYard" fillTypeName="rape" demandMultiplier="1.5" demandStartDay="9" demandStartHour="7" demandDuration="6" isRunning="false" isValid="true" />
+    </greatDemands>
+
+    <financeStatsHistory>
+        <financeStats day="0" newVehiclesCost="-128000" newAnimalsCost="0" constructionCost="0" vehicleRunningCost="-639.61947719921" propertyMaintenance="-1.8055555555556" wagePayment="-87.775600093211" harvestIncome="17293.08" missionIncome="0" other="-1328.5648290961" loanInterest="0" />
+        <financeStats day="1" newVehiclesCost="-401600" newAnimalsCost="0" constructionCost="0" vehicleRunningCost="-3081.5857093239" propertyMaintenance="-10.034722116258" wagePayment="-1396.4930634889" harvestIncome="308293.08183897" missionIncome="0" other="-273.4930395608" loanInterest="-70" />
+        <financeStats day="2" newVehiclesCost="-26700" newAnimalsCost="0" constructionCost="0" vehicleRunningCost="-3495.5199090042" propertyMaintenance="-10" wagePayment="-3424.5553318906" harvestIncome="124616.70099436" missionIncome="0" other="-1071.0638341844" loanInterest="-70" />
+    </financeStatsHistory>
+
+</economy>
+
